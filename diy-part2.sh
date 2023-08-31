@@ -13,4 +13,8 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.5.31/g' package/base-files/files/bin/config_generate
+git clone -b main https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
+git clone -b main https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+./scripts/feeds update -a
+./scripts/feeds install -a

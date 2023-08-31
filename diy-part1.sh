@@ -14,8 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git sbwml https://github.com/sbwml/openwrt_helloworld' >>feeds.conf.default
+echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >>feeds.conf.default
+echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >>feeds.conf.default
+echo 'src-git OpenClash https://github.com/vernesong/OpenClash.git;master' >>feeds.conf.default
+echo 'src-git istore https://github.com/linkease/istore;main' >>feeds.conf.default
