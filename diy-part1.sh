@@ -19,3 +19,5 @@ echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >>feeds.conf.default
 echo 'src-git OpenClash https://github.com/vernesong/OpenClash.git;master' >>feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >>feeds.conf.default
+./scripts/feeds update -a
+./scripts/feeds install -a
