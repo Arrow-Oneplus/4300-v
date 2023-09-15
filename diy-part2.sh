@@ -21,5 +21,5 @@ svn export --force https://github.com/kenzok8/small-package/trunk/luci-app-fileb
 svn export --force https://github.com/kenzok8/small-package/trunk/luci-app-tcpdump package/luci-app-tcpdump
 svn export --force https://github.com/kenzok8/small-package/trunk/luci-app-packet-capture package/luci-app-packet-capture
 svn export --force https://github.com/kenzok8/small-package/trunk/luci-app-poweroffdevice package/luci-app-poweroffdevice
-git clone -b main git@github.com:Dr-chen99/luci-app-parentcontrol.git package/luci-app-parentcontrol
-git clone -b main git@github.com:Dr-chen99/luci-app-eqosplus.git package/luci-app-eqosplus
+git clone -b main https://github.com/Dr-chen99/luci-app-parentcontrol package/luci-app-parentcontrol
+git clone -b main https://github.com/Dr-chen99/luci-app-eqosplus package/luci-app-eqosplus
